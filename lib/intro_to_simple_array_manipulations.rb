@@ -53,6 +53,7 @@ def using_flatten(private_colleges_in_newyork)
 end
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+<<<<<<< HEAD
 def using_delete(n, string)
   n.delete(string)
 end
@@ -60,3 +61,10 @@ end
 def using_delete_at(n,int)
   n.delete_at(int)
 end
+=======
+def using_delete(instructors, "Steven")
+  no_offense_steven = instructors.delete("Steven")
+end
+
+
+>>>>>>> 9b8827651bafb73b1d23c6af29410823d98ba3ac
